@@ -1,0 +1,57 @@
+:root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #ffd7ef;
+  --font-family: orbitron, monospace;
+  background-color: #18191e;
+}
+
+h1{
+  font-family: var(--font-family);
+  text-transform: capitalize;
+  text-shadow: 5px 0px 30px rgb(108, 0, 116);
+  
+  
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.input-bar{
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ffe2f1;
+  box-shadow: 0px 0px 10px aqua;
+  font-family: orbitron, monospace;
+  letter-spacing: 1px;
+}
+
+button{
+  
+  margin: 20px;
+  padding: 10px;
+  padding-right: 40px;
+  font-family: var(--font-family);
+  border: none;
+  letter-spacing: 1px;
+  background-color: #18191e; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+button:hover{
+  color: rgb(255, 231, 253);
+  transform: scale(1.05);
+}
+
+li{
+  text-align: left;
+}
